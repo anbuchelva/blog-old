@@ -1,0 +1,22 @@
+image: node:8.9.1
+
+
+pages:
+  stage: deploy
+  variables:
+    GIT_SUBMODULE_STRATEGY: normal
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - npm install hexo-cli -g
+  - npm install
+  - cp -rf themes/pure_hyperion/* themes/pure/
+  - hexo clean
+  - hexo generate
+  - hexo deploy
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
