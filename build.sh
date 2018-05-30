@@ -16,5 +16,5 @@ hexo algolia
 #pwd #to identify present working directory
 cp ../source/admin/config.yml ../public/admin/config.yml
 # cp ../source/admin/netlify.css ../public/admin/netlify.css
-hexo generate
-hexo deploy
+# hexo generate
+hexo deploy --silent
