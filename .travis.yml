@@ -14,4 +14,4 @@ branches:
   only:
   - source
 script:
-- . scripts\build.sh
+- . build.sh
