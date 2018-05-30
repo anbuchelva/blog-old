@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
-  branch: source # Branch to update (optional; defaults to master)
-
+  name: github
+  repo: anbuchelva/blog   # Path to your Github repository
+  branch: source              # Branch to update
+  base_url: https://anbuchelva.cloudflareaccess.com
+  
 publish_mode: editorial_workflow
 
 media_folder: "source/_posts/{{slug}}" # Media files will be stored in the repo under static/images/uploads
