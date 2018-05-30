@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: source # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "source/_posts/{{slug}}" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "source/_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
+      - {label: "Cover Image", name: "coverImage", required: false, widget: "image"}
+      - {label: Categories, name: categories, required: true, widget: list}
+      - {label: Tags, name: tags, required: false, widget: list}
+      - {label: "Hide Left Panel", name: "clearReading", required: false, widget: "boolean", default: true}
+      - {label: "Keywords", name: "keywords", required: false, widget: "list"}
+      - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", required: false, widget: "boolean", default: false}
+      - {label: "Thumbnail Image Position", name: "thumbnailImagePosition", required: false, widget: "select", default: "right", options: ["left", "top", "right"]}
+      - {label: "Thumbnail Image", name: "thumbnailImage", required: false, widget: "image"}
+      - {label: "Thumbnail Image URL", name: "thumbnailImageUrl", required: false, widget: "image"}
+      - {label: "Meta Alignment", name: "metaAlignment", required: false, widget: "select", default: "center", options: ["left", "center", "right"]}
+      - {label: "Show Meta Data", name: "meta", required: false, widget: "boolean", default: false}
+      - {label: "Cover Meta", name: "coverMeta",required: false, widget: "select", default: "in", options: ["in", "out"]}
+      - {label: "Cover Size", name: "coverSize", required: false, widget: "select", default: "partial", options: ["full", "partial"]}
+      - {label: "Cover Image", name: "coverImage", required: false, widget: "image", default: "source/images/cover2.jpg"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Display Comments", name: "comments", required: false, widget: "boolean", default: true}
+      - {label: "Actions Bar", name: "actions", required: false, widget: "boolean", default: true}
+
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "page" # Used in the UI
+    folder: "source" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Cover Image", name: "coverImage", required: false, widget: "image"}
+      - {label: "Hide Left Panel", name: "clearReading", required: false, widget: "boolean", default: true}
+      - {label: "Keywords", name: "keywords", required: false, widget: "list"}
+      - {label: "Meta Alignment", name: "metaAlignment", required: false, widget: "select", default: "center", options: ["left", "center", "right"]}
+      - {label: "Show Meta Data", name: "meta", required: false, widget: "boolean", default: false}
+      - {label: "Cover Meta", name: "coverMeta",required: false, widget: "select", default: "in", options: ["in", "out"]}
+      - {label: "Cover Size", name: "coverSize", required: false, widget: "select", default: "partial", options: ["full", "partial"]}
+      - {label: "Cover Image", name: "coverImage", required: false, widget: "image", default: "source/images/cover2.jpg"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Display Comments", name: "comments", required: false, widget: "boolean", default: true}
+      - {label: "Actions Bar", name: "actions", required: false, widget: "boolean", default: true}

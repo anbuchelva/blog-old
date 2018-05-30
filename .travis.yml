@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- 8.9.1
+sudo: false
+cache:
+  directories:
+  - node_modules
+  - themes/tranquilpeak/node_modules
+before_install:
+- npm install hexo-cli -g
+install:
+- npm install
+branches:
+  only:
+  - source
+script:
+- . scripts\build.sh

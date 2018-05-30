@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://anbuchelva-blog.netlify.com/* https://blog.anbuchelva.in/:splat 301!
