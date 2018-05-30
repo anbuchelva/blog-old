@@ -78,8 +78,11 @@ theme: pure
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
+  type: git
+  repo: git@github.com:anbuchelva/hyperion.git
+  branch: gh-pages
+  message: Site updated at {{ now('YYYY-MM-DD HH:mm:ss') }} GMT [skip ci]
+  
 robotstxt:
   useragent: "*"
   disallow:
