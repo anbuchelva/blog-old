@@ -7,7 +7,7 @@ category:
   - General
 #keywords:
 #clearReading: true
-thumbnailImage: pexels-photo-261763-small.jpg
+thumbnailImage: ../../assets/images/pexels-photo-261763-small.jpg
 #thumbnailImageUrl: write.jpg
 thumbnailImagePosition: left
 #autoThumbnailImage: yes
@@ -15,7 +15,7 @@ metaAlignment: center
 meta: false
 coverMeta: in
 coverSize: partial
-coverImage: pexels-photo-261763.jpeg
+coverImage: ../../assets/images/pexels-photo-261763.jpeg
 comments: true
 actions: true
 ---
