@@ -93,16 +93,16 @@ feed:
     
 #  - hexo-algoliasearch
 algolia:
-  appId: "SKBO2O8OGJ"
-  apiKey: "57106995fd15ca62a4b14bba0b7fadf7"
+  appId: "YWDWMU4IEV"
+  apiKey: "32f5901d036a1d67326daaf2d788b52b"
   adminApiKey: ${ALGOLIA_ADMIN_API_KEY}
   chunkSize: 5000
-  indexName: "blog"
+  indexName: "YWDWMU4IEV"
   fields:
-    - title
-    - tags
-    - slug
-    - excerpt
     - excerpt:strip
-    - photos
     - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
