@@ -14,5 +14,5 @@ branches:
   only:
   - source
 script:
-- . theme.sh
-- . build.sh
+- . build_theme.sh
+- . build_site.sh
