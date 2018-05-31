@@ -16,5 +16,3 @@ branches:
 script:
 - . theme.sh
 - . build.sh
-- git config --global user.name "Travis-CI"
-- hexo deploy --silent
