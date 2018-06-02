@@ -45,7 +45,7 @@ The blog uses the following platforms.
 5. [Hexo-tranquilpeak-theme](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak) - The Hexo theme used in this blog designed by [Louis Barranqueiro](https://github.com/LouisBarranqueiro)
 7. [Travis-CI](gittps://travis-ci.org) for building the theme & site
 6. [Cloudflare](https://www.cloudflare.com/) - for CDN and security purposes
-8. [Disqus](https://disqus.com/) - For comments
+8. ~~Disqus~~ [Gitment](https://github.com/imsun/gitment) - Disqus sucks, so I enabled gitment an open source github based comment system
 9. [Google Domains](https://domains.google.com/) - for the https://anbuchelva.in domain
 
 ## Blog PlatForm
@@ -171,6 +171,6 @@ I use 3 environment variables to build the site
 I may write a separate post for CI.
 
 ## Cloudflare
-I should thank [Cloudflare](https://cloudflare.com) for their free service for ultrafast CDN and free encryption certificate, caching etc.  This increased the site speed from 60+ to 80-90 out of 100.
+I should thank [Cloudflare](https://cloudflare.com) for their free service for ultrafast CDN and free encryption certificate, caching etc.  This increased the site speed from 60 to 80-90 out of 100.
 
 That's all folks!!

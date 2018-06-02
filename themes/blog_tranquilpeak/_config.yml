@@ -191,20 +191,20 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname: anbu-blog
+disqus_shortname: #anbu-blog
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
     # Switch
-    enable: false
+    enable: true
     # Your Github ID (Github username):
-    github_id:
+    github_id: anbuchelva
     # The repo to store comments:
-    repo:
+    repo: blog
     # Your client ID:
-    client_id:
+    client_id: 713d3073615d45828fbb
     # Your client secret:
-    client_secret:
+    client_secret: 6c82df6a6038f77ab9c5bd77e76b2476517510b5
 
 # -------------------
 # Integrated services
