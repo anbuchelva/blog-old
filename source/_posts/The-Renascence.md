@@ -5,12 +5,12 @@ tags:
   - Thoughts
 category:
   - General
-#keywords:
-#clearReading: true
+keywords:
+clearReading: true
 thumbnailImage: ../../assets/images/pexels-photo-261763-small.jpg
-#thumbnailImageUrl: write.jpg
+thumbnailImageUrl: 
 thumbnailImagePosition: left
-#autoThumbnailImage: yes
+autoThumbnailImage: no
 metaAlignment: center
 meta: false
 coverMeta: in
