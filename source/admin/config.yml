@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "source/assets/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "../../assets/images" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
 
@@ -18,8 +18,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", required: false, widget: "datetime"}
       - {label: "Cover Image", name: "coverImage", required: false, widget: "image"}
-      - {label: Categories, name: categories, required: true, widget: list}
-      - {label: Tags, name: tags, required: false, widget: list}
+      - {label: "Categories", name: "category", required: true, widget: "list"}
+      - {label: "Tags", name: "tags", required: false, widget: "list"}
       - {label: "Hide Left Panel", name: "clearReading", required: false, widget: "boolean", default: true}
       - {label: "Keywords", name: "keywords", required: false, widget: "list"}
       - {label: "Auto Thumbnail Image", name: "autoThumbnailImage", required: false, widget: "boolean", default: false}
@@ -37,9 +37,9 @@ collections:
 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "page" # Used in the UI
-    folder: "source" # The path to the folder where the documents are stored
+    folder: "source/{{slug}}" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "index.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Cover Image", name: "coverImage", required: false, widget: "image"}
