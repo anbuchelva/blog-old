@@ -14,6 +14,7 @@ if [ ! -d "themes/tranquilpeak" ]; then
 	rm -rf hexo-theme-*.zip
 	echo copy blog_tranquilpeak to tranquilpeak
 	cp -rf themes/blog_tranquilpeak/* themes/tranquilpeak
+	rm -rf themes/tranquilpeak/source/assets/images/*
 	cd themes/tranquilpeak
 	npm install
 	cd ../../
