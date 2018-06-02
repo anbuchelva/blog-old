@@ -4,7 +4,7 @@ sed -i'' "s~git@github.com:anbuchelva/blog.git~https://${GH_TOKEN}:x-oauth-basic
 hexo clean
 hexo algolia
 pwd #to identify present working directory
-hexo generate
+# hexo generate
 cp source/admin/config.yml public/admin/config.yml
 # cp ../source/admin/netlify.css ../public/admin/netlify.css
 if [ ${ci}="Netlify" ]; then
@@ -15,4 +15,5 @@ elif [ ${ci}="Travis-CI" ]; then
 	git config --global user.email travis-ci@Travis-CI.org
 fi
 echo ${ci}
+cp README.md public/README.md
 hexo deploy --silent
