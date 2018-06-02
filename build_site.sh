@@ -13,9 +13,6 @@ if [ ${ci}="Netlify" ]; then
 elif [ ${ci}="Travis-CI" ]; then
 	git config --global user.name 'anbuchelva via Travis-CI'
 	git config --global user.email travis-ci@Travis-CI.org
-else
-	git config --global user.name anbuchelva
-	git config --global user.email anbuchelva@gmail.com
 fi
 echo ${ci}
 hexo deploy --silent

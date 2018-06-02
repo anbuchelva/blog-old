@@ -1,8 +1,4 @@
 if [ ! -d "themes/tranquilpeak" ]; then
-	# cd ../
-	# echo installing zip
-	# apt-get update
-	# apt-get install zip unzip
 	echo downloading theme
 	wget https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/releases/download/v2.0.0/hexo-theme-tranquilpeak-built-for-production-2.0.0.zip --quiet
 	echo unzipping
