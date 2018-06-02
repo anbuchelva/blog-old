@@ -169,8 +169,8 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Anbuselvan Palaniyandi
-  author_title: Manager - Oracle EPM
-  author_description: Expert in Oracle Essbase, Hyperion Planning, HPCM Management Ledger
+  author_title: Consultant - Oracle EPM
+  author_description: Consultant for Oracle Essbase, Hyperion Planning, HPCM Management Ledger
   location: Chennai, India
   follow: https://hyperion.anbuchelva.in
   # Social Links
