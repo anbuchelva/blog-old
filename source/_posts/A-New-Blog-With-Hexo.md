@@ -29,21 +29,14 @@ One of my primary requirement is not to spend money for hosting, CMS, etc., So I
 
 1. [Hexo](https://hexo.io/) - The platform that generates static sites
 2. [Markdown](https://en.wikipedia.org/wiki/Markdown) - The language is being used to write posts
-3. [Gitlab](https://gitlab.com) - Hosting this site
+5. [Github](https://github.com/) - The place where the contents of this blog is stored
+3. [Github Pages](https://github.com/pages) - Hosting this site
 4. [Hexo-pure-theme](https://github.com/cofess/hexo-theme-pure) - The Hexo theme used in this blog
-5. [Github](https://github.com/) - The place where the theme is stored
 6. [Cloudflare](https://www.cloudflare.com/) - for CDN and security purposes
 8. [Disqus](https://disqus.com/) - For comments
-7. [Google Domains](https://domains.google.com/) - for the https://anbuchelva.in domain<sup><a name="myfootnote1">1</a></sup> 
-
-## Github vs. Gitlab
-Github and Gitlab provides almost similar services.  However, I felt Gitlab provides more security compared to Github for hosting a site.  It has inbuilt <abbr title="Continuous Integration">CI</abbr> and End-to-end encryption with HTTPS certificate.
-
-I have to depend on 3rd party CI such as Travis-CI or Circle-CI or Netlify, if I use Github.  Also the transactions between Github and Cloudflare is not secured.  Gitlab provides free private repository, which help me to secure my blog contents and avoid someone just fork all the contents/publish with his/her name.
-
-I will keep a copy of this repository in my [Github Account](https://github.com/anbuchelva/hyperion), which is visible to everyone if somebody wants to see the bloging setup.
+7. [Google Domains](https://domains.google.com/) - for the https://anbuchelva.in domain<sup><a name="footnote">1</a></sup> 
 
 _That's all folks! Happy Writing!!_
 
 ---
-<sup>[1](#myfootnote1)</sup> I pay $12 per year only for this is product.
+<sup>[1](#footnote)</sup> I pay $12 per year for this is product.

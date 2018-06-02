@@ -95,10 +95,10 @@ robotstxt:
     - /Learning/
   sitemap: /sitemap.xml
 
-jsonContent: 
-  ignore: 
-    - path/to/a/page 
-    - url/to/one/post 
-    - an-entire-category 
-    - specific.file 
-    - .ext # a file extension
+# jsonContent: 
+  # ignore: 
+    # - path/to/a/page 
+    # - url/to/one/post 
+    # - an-entire-category 
+    # - specific.file 
+    # - .ext # a file extension
