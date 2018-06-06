@@ -86,19 +86,22 @@ deploy:
 robotstxt:
   useragent: "*"
   disallow:
-    - /links/
+    # - /links/
   allow:
     - /categories/
     - /tags/
     - /archives/
     - /about/
     - /Learning/
-  sitemap: /sitemap.xml
+  # sitemap: /sitemap.xml
 
-# jsonContent: 
-  # ignore: 
-    # - path/to/a/page 
-    # - url/to/one/post 
+jsonContent: 
+  ignore: 
+    - admin/
+    - 404.html
+    - Books
+    - Links
+    - .json
     # - an-entire-category 
     # - specific.file 
     # - .ext # a file extension
