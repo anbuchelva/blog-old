@@ -1,6 +1,6 @@
 ---
 title: Anbuselvan Palaniyandi
-description: Associate Profile at Sutherland, Chennai, IN
+description: Associate Principal at Sutherland, Chennai, IN
 layout: about
 comments: false
 sidebar: custom
