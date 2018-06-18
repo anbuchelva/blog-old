@@ -115,9 +115,9 @@ filter_optimize:
   #   - like `?v=1.0.0`
   remove_query_string: true
   # remove the surrounding comments in each of the bundled files
-  remove_comments: false
+  remove_comments: true
   css:
-    enable: false
+    enable: true
     # bundle loaded css file into the one
     bundle: true
     # use a script block to load css elements dynamically
@@ -126,7 +126,7 @@ filter_optimize:
     #   - only support the full path
     #   - default is ['css/main.css']
     inlines:
-    excludes:
+    excludes: style.css
   js:
     # bundle loaded js file into the one
     bundle: true
