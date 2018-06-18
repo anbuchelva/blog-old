@@ -2,6 +2,6 @@
 title: About
 layout: about
 comments: false
-sidebar: custom
+Notes: Sample
 ---
-[This page is under construction]
+Thank you for visiting. This page is under construction
