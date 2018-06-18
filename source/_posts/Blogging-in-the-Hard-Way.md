@@ -21,7 +21,7 @@ keywords:
 I have started this blog in last November, after that I did not write anything, as like the way it happens every time.  We start something and forget, until we make it as routine.  Meanwhile, I was doing some analysis and checks, etc on the blogging platform.  Like to share the same here..
 <!---more--->
 # The Staitc Blog Platform
-Why Static Blog?  I have tried using the ready-made blogging platforms such as Blogger, WordPress, etc., But I settled with Static blogging platform, for its simplicity and speed, also I don't want to try something in a hard way to make it work (_Actually setting up a static blog is not that hard_).  
+Why Static Blog?  I have tried using the ready-made blogging platforms such as Blogger, WordPress, etc., But I settled with Static blogging platform, for its simplicity and speed, also I want to try something in a hard way to make it work (_Actually setting up a static blog is not that hard_).  
 
 I can write posts when I am off line, using a notepad++. Then just push to git repository when I connected to Internet.  Git provides the history / version control for all the modifications that I do.  If I feel a change that I made recently not working, I can just use `git revert` command to go back to the previous state.
 
@@ -77,7 +77,7 @@ There's no privacy guaranteed when using Disqus, Gitment is open sourced and pri
 # Content Management System
 What is the success of Wordpress, the simple content management system.  As of now, I have to depend on my personal computer, where the git is configured and I can locally run Hexo to see the output before publishing any post.  Sometimes it is painful, If I have an online portal, where I can go and write posts and if it automatically publishes it, that's going to be a welcome change.
 
-Currently Netlify provides such option. When a new post created, Netlify creates pull request and builds the website temporarily.  Once we feel the post is ready for publishing, it automatically merget the pull request and deletely the temporary branch.
+Currently Netlify provides such option. When a new post created, Netlify creates pull request and builds the website temporarily.  Once we feel the post is ready for publishing, it automatically merge the pull request and delete the temporary branch.
 
 I have set it up already for this blog, but still not using it 100%, as I do some tweaks in the website.  Netlify breaks if there are any commits passed during the draft to publish phase.  Ideally I will move into it in some days.
 
