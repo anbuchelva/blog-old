@@ -59,13 +59,13 @@ The `dyn_Valid Intersection` member would give an output as 0 or 1 (yes or no) f
 Open the form in `Edit` mode and go to `Layout` tab.
 1. Add the `dyn_Valid Intersection` member in the first row of every form, where you want to set up this validation. _I'm trying to find a way to achieve the output without adding a row_
 2. Select `Validation Rules` from right pane, click the `+` sign and setup a validation rule as like the screen shot  
-![Hyperion Planning Form Validation Rule Setup](..\..\images\Validation_Rule1.PNG)  
+![Hyperion Planning Form Validation Rule Setup](../../images/Validation_Rule1.PNG)  
 2. I keep the process format in grey, as it would mimic the user that the cell is for editing, though it is editable. You may add a `Validation Message` which will be displayed to the users upon error.  
-![Hyperion Planning Form Validation Error Message](..\..\images\Validation_Rule2.PNG)  
+![Hyperion Planning Form Validation Error Message](../../images/Validation_Rule2.PNG)  
 3. Once done, click `Validate` to validate the `Validation Rule` :wink:  
-![Hyperion Planning Form Validate validation rule](..\..\images\Validation_Rule3.PNG)  
+![Hyperion Planning Form Validate validation rule](../../images/Validation_Rule3.PNG)  
 4. Now open the form to input data and select incorrect combination from the `Page` section / `drop down`. You will see all the cells are grayed out. When you try to input data in a `store` member, you will get the error message that was setup in the `Validation Rule`.  
-![Hyperion Planning Validation Rule Invalid Intersections](..\..\images\Validation_Rule4.PNG)  
+![Hyperion Planning Validation Rule Invalid Intersections](../../images/Validation_Rule4.PNG)  
 5. It doesn't restrict user to input on the invalid intersections. However, it just give a warning to them that they have selected invalid intersections and inputting data.
 
 ### Step 4: Setup a Business rule to validate the intersections while saving form.
@@ -73,10 +73,10 @@ As an additional way to restrict processing calculations for the invalid interse
 sample code is given below:
 ```
 FIX("FY18",{RTP_Rev_BU},{RTP_Rev_OU})
-"Valid Intersection"(
-IF("dyn_Valid Intersection" <> 1))
-@RETURN("Invalid BU x OU selected, pls select the valid BU x OU", Error);
-ENDIF;)
+	"Valid Intersection"(
+	IF("dyn_Valid Intersection" <> 1))
+		@RETURN("Invalid BU x OU selected, pls select the valid BU x OU", Error);
+	ENDIF;)
 ENDFIX;
 ```
 > All these checks would work only for form. There's no way to restrict, if an user prefer to load data through ad-hoc smartview query or try loading through back end.
