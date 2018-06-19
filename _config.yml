@@ -82,19 +82,10 @@ deploy:
   repo: git@github.com:anbuchelva/blog.git
   branch: gh-pages
   message: Site updated at {{ now('YYYY-MM-DD HH:mm:ss') }} GMT
-
-robotstxt:
-  useragent: "*"
-  disallow:
-    # - /links/
-  allow:
-    - /categories/
-    - /tags/
-    - /archives/
-    - /about/
-    - /Learning/
-  # sitemap: /sitemap.xml
-
+   
+sitemap:
+    path: sitemap.xml
+  
 fancybox: true
 
 # symbols_count_time:
