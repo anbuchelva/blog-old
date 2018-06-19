@@ -9,4 +9,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: /sitemap.xml
+Sitemap: https://blog.anbuchelva.in/sitemap.xml
