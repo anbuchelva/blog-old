@@ -1,4 +1,3 @@
----
 title: Blogging in the Hard Way
 date: 2018-06-02 14:17:52
 category:
@@ -20,7 +19,7 @@ keywords:
 ---
 I have started this blog in last November, after that I did not write anything, as like the way it happens every time.  We start something and forget, until we make it as routine.  Meanwhile, I was doing some analysis and checks, etc on the blogging platform.  Like to share the same here..
 <!---more--->
-# The Staitc Blog Platform
+# The Static Blog Platform
 Why Static Blog?  I have tried using the ready-made blogging platforms such as Blogger, WordPress, etc., But I settled with Static blogging platform, for its simplicity and speed, also I want to try something in a hard way to make it work (_Actually setting up a static blog is not that hard_).  
 
 I can write posts when I am off line, using a notepad++. Then just push to git repository when I connected to Internet.  Git provides the history / version control for all the modifications that I do.  If I feel a change that I made recently not working, I can just use `git revert` command to go back to the previous state.
@@ -37,10 +36,10 @@ I have tried all the platforms finally settled with Hexo for the speed and the v
 # Domain
 I have purchased this domain from [Google Domains](https://domains.google.com/). I pay $12 per annum for it, which is the only service that I pay money when setting up this blog.
 
-Still thinking of moving it to a different domain name, which can be easily remembered.  I know the 'anbuchelva' would be hard to pronounce who are not from South India.
+Still thinking of moving it to a different domain name, which can be easily remembered.  I know the the word 'anbuchelva' would be hard to pronounce who are not from South India.
 
 # Hosting
-The next questing that arise in your mind, what about hosting? Aren't you paying any money for it?
+The next question that arise in your mind, what about hosting? Aren't you paying any money for it?
 The answer is yes.  I'm not paying anything for hosting, as I host it in [Github pages](https://pages.github.com/)
 
 There are few alternates available such as Gitlab Pages, Bitbucket, Netlify, etc.,  I have settled with Github Pages + Cloudflare for hosting and CDN services.  Github pages provide very fast server response than the others that I have listed above.  This improves the Google page speed drastically.
@@ -56,7 +55,7 @@ Still thinking of moving the source of this blog to Gitlab or Bitbucket for priv
 |__Netlify CMS Integration__| Not available yet | Available|
 
 # Cloudflare
-I should thank [Cloudflare](https://cloudflare.com) for their free service for ultrafast CDN and free encryption certificate, caching etc.  This increased the site speed from 60 to 90 above out of 100.
+I should thank [Cloudflare](https://cloudflare.com) for their free service for ultra fast CDN and free encryption certificate, caching etc.  This increased the site speed from 60/100 to 95+/100.
 
 # Markdown
 Writing posts in `Markdown` language is very easy than using traditional `HTML` tags.  It is in readable format so it's easy to modify, when the changes needed. Whenever I make changes and push the commits to git repository, the CI automatically build the site to `HTML` pages.  When the user opens up the website, they access the webpages which are built already.  There's no to and fro data data movement to load the pages.
