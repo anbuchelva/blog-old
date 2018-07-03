@@ -14,8 +14,8 @@ Keywords:
   - Validation Rules
 toc: true
 ---
-I recently encountered with a requirement that the users should input data in the Planning Forms only for Valid Intersection. There's an option to setup Valid Intersection in PBCS. But, the requirement is to setup the same in on premises.
-You ask me how to do it in Microsoft Excel using VBA or Microsoft Oracle using Query, I would do it very easily. But in HP, there's no such option available inbuilt.
+I recently encountered with a requirement that the users should input data in the Planning Forms only for Valid Intersection. There's an option to setup Valid Intersection in PBCS. But, the requirement is to setup the same on premises environment.
+You ask me how to do it in Microsoft Excel using VBA or Microsoft Access using SQL Query, I would do it very easily. But in Hyperion Planning, there's no such option available inbuilt.
 <!---more--->
 ## The Problem
 There are two dimensions in a classic Planning Application having _many to many_ relationship. The user should select the correct combination in the web forms/SmartView and input the data. There should be restrictions setup for selecting/updating in incorrect combinations.	
