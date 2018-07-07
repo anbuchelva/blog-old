@@ -9,7 +9,7 @@
     "start": "hexo server --drafts",
     "clean": "hexo clean",
     "generate": "hexo generate",
-    "deploy": "hexo deploy --silent"
+    "deploy": "hexo deploy --silent",
     "minify-css": "sed -i'' \"s~../fonts/~lib/font-awesome/fonts/~g\" themes/next/source/lib/font-awesome/css/font-awesome.min.css",
     "netlify-cms": "cp source/admin/config.yml public/admin/config.yml"
   },
