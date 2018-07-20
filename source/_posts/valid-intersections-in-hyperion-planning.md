@@ -1,5 +1,5 @@
 ---
-title: Valid Intersections in Hyperion Planning
+title: "Valid Intersections in Hyperion Planning"
 date: 2018-06-03 00:46:24
 category: Hyperion Planning
 tags:
@@ -72,7 +72,7 @@ Open the form in `Edit` mode and go to `Layout` tab.
 As an additional way to restrict processing calculations for the invalid intersections, we can setup a `Business Rule` and place it in the first position with `@Return` message.
 sample code is given below:
 ```
-FIX("FY18",{RTP_Rev_BU},{RTP_Rev_OU})
+FIX("FY18",{RTP_BU},{RTP_OU})
 	"Valid Intersection"(
 	IF("dyn_Valid Intersection" <> 1))
 		@RETURN("Invalid BU x OU selected, pls select the valid BU x OU", Error);
