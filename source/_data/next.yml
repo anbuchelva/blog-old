@@ -104,7 +104,7 @@ seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 
 # ---------------------------------------------------------------
@@ -218,7 +218,7 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
-creative_commons:
+#creative_commons:
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
@@ -352,8 +352,8 @@ android_chrome_color: "#222"
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /images/anbuchelva.jpg
 
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
@@ -486,7 +486,7 @@ disqus:
   enable: true
   shortname: anbu-blog
   count: true
-  lazyload: true
+  lazyload: false
 
 # Hypercomments
 #hypercomments_id:
@@ -529,13 +529,13 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: en # Force language, or auto switch by theme
-  github_user: anbuchelva # MUST HAVE, Your Github Username
-  github_repo: hyperion # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 661e71a63b98aa4525c1 # MUST HAVE, Github client id for the Gitment
-  client_secret: ee1cac0b9d613149beb83a9395b029779fdc32dd # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  language: # Force language, or auto switch by theme
+  github_user: # MUST HAVE, Your Github Username
+  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: # MUST HAVE, Github client id for the Gitment
+  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: https://hyperion.anbuchelva.in/ # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
 # Baidu Share
 # Available value:
@@ -544,13 +544,7 @@ gitment:
 #baidushare:
 ##  type: button
 
-# Share
-# This plugin is more useful in China, make sure you known how to use it.
-# And you can find the use guide at official webiste: http://www.jiathis.com/.
-# Warning: JiaThis does not support https.
-#jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
-
+# addthis Share, see: https://www.addthis.com/
 #add_this_id:
 
 # NeedMoreShare2
@@ -658,8 +652,8 @@ leancloud_visitors:
 firestore:
   enable: false
   collection: articles #required, a string collection name to access firestore database
-  apiKey: AIzaSyBWOJVay9uH612Py3CG6vVnPBvp3hRNGIA
-  projectId: hyperion-blog
+  apiKey: #required
+  projectId: #required
   bluebird: false #enable this if you want to include bluebird 3.5.1(core version) Promise polyfill
 
 # Show Views/Visitors of the website/page with busuanzi.
@@ -914,14 +908,20 @@ vendors:
   # Or use direct links below:
   # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
   # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
-  pace: false
+  pace: 
   pace_css:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
-  # three
+ # Internal version: 1.0.0
+  # See: https://github.com/theme-next/theme-next-three
+  # three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three.min.js
+  # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
+  # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
+  # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js 
+  
   three:
 
   # three_waves
