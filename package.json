@@ -14,7 +14,6 @@
     "netlify-cms": "cp source/admin/config.yml public/admin/config.yml"
   },
   "dependencies": {
-    "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-filter-optimize": "^0.2.5",
     "hexo-generator-archive": "^0.1.4",
