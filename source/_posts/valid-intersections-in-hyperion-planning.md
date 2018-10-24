@@ -76,8 +76,8 @@ FIX("FY18",{RTP_BU},{RTP_OU})
 	"Valid Intersection"(
 	IF("dyn_Valid Intersection" <> 1))
 		@RETURN("Invalid BU x OU selected, pls select the valid BU x OU", Error);
-	ENDIF;)
-ENDFIX;
+	ENDIF)
+ENDFIX
 ```
 > All these checks would work only for form. There's no way to restrict, if an user prefer to load data through ad-hoc smartview query or try loading through back end.
 
