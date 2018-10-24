@@ -1,5 +1,5 @@
 ---
-title: Byepass Screenshot Restriction on Android
+title: Bypass Screenshot Restriction on Android
 date: 2018-10-24 12:32:27
 category:
   - Android
