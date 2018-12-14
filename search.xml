@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Sample Post from Netlify CMS]]></title>
     <url>%2FBlog%2Fsample-post-from-netlify-cms%2F</url>
-    <content type="text"><![CDATA[If you are able to read this the `netlify-cms` works good.]]></content>
+    <content type="text"><![CDATA[If you are able to read this the netlify-cms works good. just checking the modifications on the existing post works…]]></content>
       <categories>
         <category>Blog</category>
       </categories>

@@ -2,134 +2,134 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://blog.anbuchelva.in/tags/Android/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/Hacks/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/Hyperion-Planning/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/Hyperion-Essbase/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/Hyperion-Financial-Management/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/SmartView/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://blog.anbuchelva.in/tags/WSFN/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://blog.anbuchelva.in/tags/Hexo/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Blog/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Netlify/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Travis-CI/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Tranquilpeak/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Github-Pages/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/Android/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/Hacks/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/Hyperion-Essbase/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/Hyperion-Financial-Management/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/SmartView/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/WSFN/</loc>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Thoughts/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/tags/Hyperion-Planning/</loc>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Classic-Planning/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Forms/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Validation-Rules/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Tamil/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/tags/Poem/</loc>
-        <lastmod>2018-12-14T08:27:14.174Z</lastmod>
+        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
