@@ -7,29 +7,29 @@
     </url>
 
     <url>
-        <loc>https://blog.anbuchelva.in/Blog/</loc>
-        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://blog.anbuchelva.in/Android/</loc>
-        <lastmod>2018-12-14T08:29:28.448Z</lastmod>
+        <lastmod>2018-12-14T10:13:15.101Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://blog.anbuchelva.in/Hyperion/</loc>
-        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
+        <loc>https://blog.anbuchelva.in/Blog/</loc>
+        <lastmod>2018-12-14T10:13:15.101Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://blog.anbuchelva.in/General/</loc>
-        <lastmod>2018-12-14T08:29:28.449Z</lastmod>
+        <lastmod>2018-12-14T10:13:15.101Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/Hyperion/</loc>
+        <lastmod>2018-12-14T10:13:15.101Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
