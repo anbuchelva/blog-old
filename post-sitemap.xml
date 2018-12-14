@@ -7,16 +7,8 @@
     </url>
 
     <url>
-        <loc>https://blog.anbuchelva.in/Blog/Blogging-in-the-Hard-Way/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://blog.anbuchelva.in/Android/Bypass-Screenshot-Restriction-on-Android/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
+        <lastmod>2018-12-14T08:23:15.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -24,7 +16,7 @@
 
     <url>
         <loc>https://blog.anbuchelva.in/Hyperion/Common-Connection-Name-in-Smartview-Functions/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
+        <lastmod>2018-12-14T08:23:15.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -32,7 +24,7 @@
 
     <url>
         <loc>https://blog.anbuchelva.in/General/The-Renascence/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
+        <lastmod>2018-12-14T08:23:15.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -40,7 +32,7 @@
 
     <url>
         <loc>https://blog.anbuchelva.in/General/%E0%AE%AE%E0%AE%95%E0%AE%BE%E0%AE%95%E0%AE%B5%E0%AE%BF-%E0%AE%AA%E0%AE%BF%E0%AE%B1%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%A8%E0%AE%BE%E0%AE%B3%E0%AF%8D/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
+        <lastmod>2018-12-14T08:23:15.464Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -48,7 +40,15 @@
 
     <url>
         <loc>https://blog.anbuchelva.in/Hyperion/valid-intersections-in-hyperion-planning/</loc>
-        <lastmod>2018-12-11T07:19:37.057Z</lastmod>
+        <lastmod>2018-12-14T08:23:15.464Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.anbuchelva.in/Blog/Blogging-in-the-Hard-Way/</loc>
+        <lastmod>2018-12-14T08:23:15.463Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
